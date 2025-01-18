@@ -20,8 +20,12 @@ public class Main {
 
         System.out.println("Задача № 2");
         System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
+
+        System.out.println("Задача № 3");
+        fullName = "Иванов Семён Семёнович";
+        String fullNameTrue = fullName.replace("ё", "е");
+        System.out.println("Данные Ф. И. О. сотрудника — " + fullNameTrue);
     }
 }
-
 
 
