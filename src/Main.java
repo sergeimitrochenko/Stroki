@@ -17,9 +17,11 @@ public class Main {
         String fullName = (lastName + firstName + middleName);
         System.out.println("Ф.И.О.сотрудника:");
         System.out.println(fullName);
+
+        System.out.println("Задача № 2");
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
     }
 }
-
 
 
 
